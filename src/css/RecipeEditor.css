@@ -1,0 +1,52 @@
+.RecipeEditor {
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+.RecipeEditor .form-input {
+    margin: 40px 0;
+    text-align: left;
+}
+
+.RecipeEditor .form-input input,
+.RecipeEditor .form-input textarea {
+    display: block;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.RecipeEditor .form-input textarea {
+    height: 80px;
+    resize: none;
+}
+
+.RecipeEditor .form-input label {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.RecipeEditor .form-input ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.RecipeEditor .form-input li {
+    margin: 10px 0;
+}
+
+.RecipeEditor .form-input button {
+    border: none;
+    background-color: #f65;
+    padding: 4px 8px;
+    font-weight: bolder;
+    color: #fff;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .4);
+    font-size: 14px;
+    border-radius: 2px;
+}

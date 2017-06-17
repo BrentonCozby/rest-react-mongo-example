@@ -1,10 +1,13 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  position: relative;
-  box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
 

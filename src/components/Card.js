@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../css/Card.css'
 
 const Card = ({ title, imageUrl, _id, getOneRecipe }) => {
@@ -12,10 +13,10 @@ const Card = ({ title, imageUrl, _id, getOneRecipe }) => {
     }
 
     return (
-        <div onClick={onCardClick} className="Card">
+        <Link onClick={onCardClick} className="Card" to={`/recipes/${_id}`}>
             <div className="image" style={imageStyle}></div>
             <p className="title">{title}</p>
-        </div>
+        </Link>
     )
 }
 

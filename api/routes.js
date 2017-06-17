@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router()
 const {
     getAllRecipes,
+    resetToDefaults,
     saveNewRecipe,
     getOneRecipe,
     updateRecipe,
@@ -14,6 +15,12 @@ router.get('/', (req, res) => {
 
 router.get('/getAllRecipes', (req, res) => {
     getAllRecipes().then(recipes => {
+        res.json(recipes)
+    })
+})
+
+router.get('/resetToDefaults', (req, res) => {
+    resetToDefaults().then(recipes => {
         res.json(recipes)
     })
 })

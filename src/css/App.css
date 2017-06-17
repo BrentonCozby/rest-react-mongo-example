@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -9,13 +10,13 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 180px;
   padding: 20px;
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+main {
+    padding: 5px;
 }
 
 @keyframes App-logo-spin {
@@ -23,9 +24,21 @@
   to { transform: rotate(360deg); }
 }
 
-.cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
+.main-buttons {
+    margin: 20px;
+    display: inline-block;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .4);
+    text-decoration: none;
+    background-color: #f65;
+    color: #fff;
+}
+
+.main-buttons.defaults {
+    background-color: #ddd;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
 }

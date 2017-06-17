@@ -1,8 +1,8 @@
-const defaultRecipes = [
+module.exports = [
     {
         "title": "Chocolate Chip Cookies",
         "description": `Why Yo Mamma is so fat`,
-        "image": "http://media.philly.com/images/chocolate-chip-cookie-app-600.jpg",
+        "imageUrl": "http://media.philly.com/images/chocolate-chip-cookie-app-600.jpg",
         "ingredients": [
             "1 cup butter, softened",
             "1 cup white sugar",
@@ -25,7 +25,7 @@ const defaultRecipes = [
     {
         "title": "Medianoche",
         "description": "A Cuban sandwich with sweet bread",
-        "image": "http://burgerbeast.com/wp-content/uploads/2014/05/Medianoche_ElCaribe.jpg",
+        "imageUrl": "http://burgerbeast.com/wp-content/uploads/2014/05/Medianoche_ElCaribe.jpg",
         "ingredients": [
             "4 sweet bread rolls",
             "1/2 cup mayonnaise",
@@ -44,7 +44,7 @@ const defaultRecipes = [
     {
         "title": "Oatmeal Pancakes",
         "description": "A great way to start the day.",
-        "image": "http://images.media-allrecipes.com/userphotos/560x315/2887547.jpg",
+        "imageUrl": "http://images.media-allrecipes.com/userphotos/560x315/2887547.jpg",
         "ingredients": [
             "2 cups buttermilk",
             "1 1/2 cups rolled oats",
@@ -65,7 +65,7 @@ const defaultRecipes = [
     {
         "title": "Naan",
         "description": "How many Indians can resist this delicious bread? Naan",
-        "image": "https://arbuz.com/wp-content/uploads/2010/03/20100326-Cooking-1880-Edit.jpg",
+        "imageUrl": "https://arbuz.com/wp-content/uploads/2010/03/20100326-Cooking-1880-Edit.jpg",
         "ingredients": [
             "1 (.25 ounce) package active dry yeast",
             "1 cup warm water",
@@ -87,7 +87,7 @@ const defaultRecipes = [
     {
         "title": "Guacamole",
         "description": "A Canadian man walked up to a carnival game, looks at it a bit, and then asks, \"...So all you gotta do is Guacamole?\"",
-        "image": "http://assets.simplyrecipes.com/wp-content/uploads/2014/05/guacamole-horiz-a-1600.jpg",
+        "imageUrl": "http://assets.simplyrecipes.com/wp-content/uploads/2014/05/guacamole-horiz-a-1600.jpg",
         "ingredients": [
             "3 avocados - peeled, pitted, and mashed",
             "1 lime, juiced",
@@ -105,7 +105,7 @@ const defaultRecipes = [
     {
         "title": "Nova Lox Bagel",
         "description": "For those of you like raw onions and fish in the morning",
-        "image": "http://www.sandwichamerica.com/wp-content/uploads/2016/04/Nova-Lox-Sandwich-HHBagels7944_54_990x660.jpg",
+        "imageUrl": "http://www.sandwichamerica.com/wp-content/uploads/2016/04/Nova-Lox-Sandwich-HHBagels7944_54_990x660.jpg",
         "ingredients": [
             "4oz Nova lox smoked salmon",
             "1 Bagel",
@@ -122,5 +122,3 @@ const defaultRecipes = [
         ]
     }
 ]
-
-export { defaultRecipes }
