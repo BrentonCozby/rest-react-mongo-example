@@ -1,14 +1,14 @@
 import React from 'react'
-import './Card.css'
+import '../css/Card.css'
 
-const Card = ({ title, image, id, getOneRecipe }) => {
+const Card = ({ title, imageUrl, _id, getOneRecipe }) => {
 
     const imageStyle = {
-        backgroundImage: `url(${image || ''})`
+        backgroundImage: `url(${imageUrl || ''})`
     }
 
     const onCardClick = () => {
-        getOneRecipe(id)
+        getOneRecipe(_id)
     }
 
     return (
