@@ -7,7 +7,7 @@
         "cors": "^2.8.3",
         "dotenv": "^4.0.0",
         "escape-html": "^1.0.3",
-        "express": "^4.15.3",
+        "express": "^4.19.2",
         "mongoose": "^4.10.6",
         "react": "^15.6.1",
         "react-dom": "^15.6.1",
